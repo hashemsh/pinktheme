@@ -1,0 +1,469 @@
+/**
+*
+*	Name:			pink theme style
+*	Version:		1.0
+*	Author:			hashem sheikhy pour (t.me/hash2o)
+*	Created on:		sep 26, 2017
+*	Website:		http://www.wpamoz.com
+*	Copyright:		it's free for all coding lovers
+**/
+
+/**font for all text in site by iranfont**/
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/eot/IRANSansWeb_Bold.eot');
+  src: url('fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+  url('fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+  url('fonts/woff/IRANSansWeb_Bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/eot/IRANSansWeb_Medium.eot');
+  src: url('fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+  url('fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+  url('fonts/woff/IRANSansWeb_Medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url('fonts/eot/IRANSansWeb_Light.eot');
+  src: url('fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+  url('fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+  url('fonts/woff/IRANSansWeb_Light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url('fonts/eot/IRANSansWeb_UltraLight.eot');
+  src: url('fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+  url('fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+  url('fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/eot/IRANSansWeb.eot');
+  src: url('fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+  url('fonts/woff2/IRANSansWeb.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+  url('fonts/woff/IRANSansWeb.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+body {
+  font: 14px IRANSans;
+}
+
+.logo {
+  margin: 20px 0px 10px 5px;
+}
+
+.navbar-default {
+  background-color: #d32f2f;
+  border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: #f44336;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+  background-color: #f44336;
+}
+
+.topmenu {
+  padding: 0px;
+}
+
+.topmenu ul li {
+  position: relative;
+}
+
+.topmenu ul li:first-child a {
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.topmenu ul li ul {
+  background-color: #f44336;
+  display: none;
+  position: absolute;
+  list-style: none;
+  width: 146px;
+  box-shadow: `0px 1px 1px #f44336;
+  padding-right: 0px;
+  z-index: 99;
+}
+
+.topmenu ul li:hover ul {
+  display: block;
+}
+
+.topmenu ul li ul li a {
+  color: #fff;
+  padding: 10px 15px;
+  display: block;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.topmenu ul li ul li:hover a {
+  background-color: #ed1c24;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: `0px 1px 1px #f44336;
+}
+
+.searchboxarea button {
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: 23px;
+  margin: 9px 0 0 0;
+  outline: none;
+}
+
+.searchboxarea input {
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.searchboxarea {
+  background-color: #f44336;
+  padding: 0 15px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.searchboxarea input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff;
+}
+
+.navbar .container-fluid {
+  padding: 0px;
+}
+
+.widgetbox {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  margin: 0 0 15px 0;
+}
+
+.widgetbox .headarea {
+  background: #fd4545;
+  padding: 5px 10px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.widgetbox .headarea h4 {
+  color: #fff;
+  text-align: center;
+}
+
+.widgetbox .contentarea {
+  padding: 5px;
+  margin-bottom: 0px;
+}
+
+.courselist {
+  display: block;
+  margin: 15px 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  height: 75px;
+}
+
+.courselist img {
+  float: right;
+  margin: 0 10px 0 10px;
+  border-radius: 3px;
+}
+
+.courselist h3 {
+  font-size: 18px;
+}
+
+.courselist a {
+  text-decoration: none;
+  color: #dd0707;
+}
+
+.courselist span {
+  font-size: 12px;
+  color: #f15d5d;
+}
+
+.courselist:hover {
+  background-color: #ffbaba;
+  border-radius: 3px;
+}
+
+.articlelist {
+  display: block;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 6px;
+  padding-bottom: 8px;
+}
+
+.articlelist h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.articlelist a {
+  text-decoration: none;
+  color: #dd0707;
+}
+
+.articlelist span {
+  font-size: 12px;
+  color: #f15d5d;
+  text-align: center;
+  margin: 20px
+}
+
+.articlelist:hover {
+  background-color: #ffbaba;
+  border-radius: 3px;
+}
+
+.carousel-caption {
+  padding: 3px;
+  left: auto;
+  right: 60px;
+  bottom: 234px;
+  text-align: right;
+}
+
+.carousel-caption h3 {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 8px 50px;
+  border-radius: 8px;
+}
+
+.carousel-control.right {
+  border-radius: 5px;
+}
+
+.carousel-control.left {
+  border-radius: 5px;
+}
+
+.item img {
+  border-radius: 5px;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+  left: 30%;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-right {
+  left: 30%;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  margin-top: 87px;
+}
+
+.blogarea {
+  margin-top: 0;
+}
+
+.blogarea li a {
+  border: 1px solid #f48078;
+  color: #fff;
+  background-color: #f48078;
+}
+
+.blogarea>li.active>a {
+  color: #fff;
+  background-color: #f79e98;
+  border: 1px solid #f79e98;
+}
+
+.blogarea>li.active>a:focus {
+  color: #fff;
+  background-color: #f79e98;
+  border: 1px solid #f79e98;
+}
+
+.blogarea>li.active>a:hover {
+  color: #fff;
+  background-color: #f3867f;
+  border: 1px solid #f3867f;
+}
+
+.blogarea>li a:hover {
+  color: #fff;
+  background-color: #f3867f;
+  border: 1px solid #f3867f;
+}
+
+.footerarea {
+  background-color: #f79e98;
+  display: block;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.widfothead h3 {
+  font-size: 18px;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.widgetfooter {
+  padding: 10px 20px;
+}
+
+.copyrightfooter {
+  background-color: #f26267;
+  width: 100%;
+  padding: 15px;
+}
+
+.textcopyright {
+  color: #fff;
+  margin: 15px 0;
+}
+
+.widfotcontent p {
+  color: #fff;
+  font-size: 16px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.contactus h3 {
+  font-size: 16px;
+  direction: ltr;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contactus a {
+  font-size: 16px;
+  direction: ltr;
+  color: #fff;
+  text-decoration: none;
+}
+
+.blogbase {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  padding-top: 0px;
+  padding-right: 0px;
+}
+
+.tab-content {
+  padding: 10px;
+}
+
+.blogtext {
+  text-align: justify;
+  margin-top: 15px;
+}
+
+}
+
+.tab-content span {
+  padding-right: 20px;
+}
+
+.commment {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.commment h4 {
+  font-size: 12px;
+}
+
+.commment p {
+  font-size: 11px;
+  text-align: justify;
+}
+
+.commment img {
+  padding: 10px;
+}
+
+.boxc h3 {
+  color: #f24656;
+  font-size: 16px;
+  text-align: center;
+}
+.navbar-toggle{
+  margin-left: 35px;
+
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #d32f2f;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .logo{
+    text-align: center;
+  }
+.respmenu{
+  width: 100%;
+  padding: 0 15px;
+}
+.topmenu ul li ul{
+  position: relative;
+  width: 100%;
+}
+}
